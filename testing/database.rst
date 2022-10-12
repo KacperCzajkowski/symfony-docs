@@ -44,7 +44,7 @@ Suppose the class you want to test looks like this::
         }
     }
 
-Since the ``EntityManagerInterface`` gets injected into the class through the
+Since the ``ObjectManager`` gets injected into the class through the
 constructor, you can pass a mock object within a test::
 
     // tests/Salary/SalaryCalculatorTest.php
